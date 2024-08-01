@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg-image{
+/* background-image: url(https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp) no-repeat center center;
+ background-repeat: no-repeat; */
+ background: url('https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp') no-repeat center center;
+ background-size: cover;
+ max-width: 1700px;
+ height: 900px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+.border-solid4{
+    border-right: 3px dotted gray;
+    width: 800px;
+}
+.main-text{
+     
+    text-align: center;
+}
