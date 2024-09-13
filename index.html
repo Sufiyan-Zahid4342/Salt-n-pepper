@@ -8,29 +8,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" /> 
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/utility.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  
 </head>
 
 <body>
-    <nav>
-        <div class="images ">
+    <nav data-aos="fade-down">
+        <div class="images " >
             <img src="./Assets/logo.webp" alt="logo" class="d-flex" width="165px">
         </div>
         <div class="pages">
-            <a class="t-decuration  " href="./index.html">Home</a>
-            <a class="t-decuration " href="./Pages/AboutUs.html">About Us</a>
-            <a class="t-decuration  " href="./Pages/Publications.html">Publications</a>
-            <a class="t-decuration" href="./Pages/Feedback.html">Feedback</a>
-            <button class=" pages-button1 pl"><a class="t-decuration text-center" href="">Get a Franchise</a></button>
-            <button class=" pages-button2 bg-red pl"><a class="t-decuration  bg-red " href="">Order Online <i class="fa-solid fa-arrow-right border-solid2"></i></a> </button>
-        </div>
+            <a class="t-decuration pages1 " href="./index.html">Home</a>
+            <a class="t-decuration pages1 " href="./Pages/AboutUs.html">About Us</a>
+            <a class="t-decuration  pages1" href="./Pages/Publications.html">Publications</a>
+            <a class="t-decuration  pages1" href="./Pages/Feedback.html">Feedback</a>
+            <button class="pages-button1"> <a class="t-decuration" href="">Get a Franchise</a></button>
+            <button class="pages-button2 bg-red"><a class="t-decuration text-center " href="">Order Now<i class="fa-solid fa-arrow-right border-solid2"></i></a></button>
+           
+        </div >
+        <div class="d-none"><i class="fa-solid fa-bars "></i></div>
     </nav>
     <!-- navbar ended -->
-    <div>
-        <img src="./Assets/mainpic1.webp" alt=" main image" width="100%">
-    </div>
+<div class="main-image">
+    <img src="./Assets/mainpic1.webp" alt="">
+</div>
     <!-- main Started -->
     <main>
-        <div class="main1">
+        <div class="main1" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
 
 
             <h2 class=" paragraph justify-center">Welcome to <span class="f-family "> Salt'n Pepper </span></br>
@@ -38,16 +49,16 @@
             <p class="text-center justify-center" style="color: rgb(164, 164, 165);">Please click our brands below for further
                 information, reservations or to order online!</p>
             </br>
-            <div class="main-child justify-center">
-                <div class="justify-center text-center ">
+            <div class="main-child justify-center"  >
+                <div class="justify-center text-center" data-aos="fade-right">
                     <img class="bg radius" src="./Assets/logo2.webp" alt="" width="250px" height="400px"></br>
                     <div> <button class="padding "><a href="">Order Now</a></button></div>
                 </div>
-                <div class="justify-center text-center">
+                <div class="justify-center text-center" data-aos="flip-up" >
                     <img class="bg radius" src="./Assets/logo3.webp" alt="" height="400px" width="250px"></br>
                     <div> <button class="padding"><a href="">Order Now</a></button></div>
                 </div>
-                <div class="justify-center text-center">
+                <div class="justify-center text-center" data-aos="fade-left">
                     <img class="bg radius" src="./Assets/logo4.webp" alt="" height="400px" width="250px"></br>
                     <div><button class="padding"><a href="">Reverse a Table</a></button></div>
                 </div>
@@ -59,7 +70,9 @@
     <!-- main two Started -->
     <main>
         <div class="main2  bg-darkgrey height1">
-            <div class="main2-children1 ">
+            <div class="main2-children1 "  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <h1 class="f-family f-size ">Salt'n pepper</h1>
                 <h2 style="font-size: 52px; font-family:'Times New Roman', Times, serif">Resturent Franchises</h2></br>
                 <p style="color: gray;">Each of our franchises are individually managed. For further details, kindly
@@ -71,7 +84,9 @@
 
             <!-- first image -->
             <div class="d-flex" style="justify-content: space-around;">
-                <div class="main-child1">
+                <div class="main-child1" data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine">
                     <p style="color: rgb(250, 23, 23);" class="p1">ISLAMABAD</p></br>
                     <h3 class="f-family" style="font-size: 35px;">Salt'n pepper <span>Resturent</span></h3></br></br>
                     <p> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px"> Plot# 55,
@@ -82,13 +97,17 @@
                     <button class="main2-button"><a href="" class="t-decuration">Get Directions <img src=""
                                 alt=""></a><i class="fa-solid fa-arrow-right border-solid2"></i></button>
                 </div>
-                <div class="main-child2img"> <img src="./Assets/main2chil1.webp" alt="" height="300px" width="500px"
+                <div class="main-child2img" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"> <img src="./Assets/main2chil1.webp" alt="" height="300px" width="500px"
                         class="main-child2img"> </div>
             </div>
             </h3></br></br></br>
 
             <!-- secaond image -->
-            <div class="d-flex " style="justify-content: center;">
+            <div class="d-flex " style="justify-content: center;" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div class="main-child2img"> <img src="./Assets/main2child2.webp" alt="" height="300px" width="500px"
                         class="main-child2img"> </div>
 
@@ -108,7 +127,7 @@
             </div></br></br></br>
             <!-- Third image -->
             <div class="d-flex" style="justify-content: space-around;">
-                <div class="main-child2">
+                <div class="main-child2" data-aos="zoom-out-right">
                     <p style="color: rgb(250, 23, 23);" class="p1">BAHAWALPUR</p></br>
                     <h3 class="f-family" style="font-size: 35px;">Salt'n pepper <span>Resturent</span></h3></br></br>
                     <p> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
@@ -119,7 +138,7 @@
                     <button class="main2-button"><a href="" class="t-decuration">Get Directions <img src=""
                                 alt=""></a><i class="fa-solid fa-arrow-right border-solid2"></i></button>
                 </div>
-                <div class="main-child2img"> <img src="./Assets/main2pic3.webp" alt="" height="300px" width="500px"
+                <div class="main-child2img" data-aos="zoom-out-left"> <img src="./Assets/main2pic3.webp" alt="" height="300px" width="500px"
                         class="main-child2img"> </div>
             </div>
 
@@ -130,7 +149,8 @@
     <!-- main three row1 Started -->
     <main class="">
         <div class="main3 height  ">
-            <div class="text-center">
+            <div class="text-center" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
 
                 <h1 class="f-family" style="font-size: 52px;">Salt'n pepper</h1>
                 <h2 style="font-size: 52px; font-family:'Times New Roman', Times, serif">Express Franchises</h2></br>
@@ -138,33 +158,36 @@
             </div></br>
             <div class="d-flex align-center text-center justify-center ">
                 <div class=" ">
-                    <img class="" src="./Assets/main3pic1.webp" alt="" width="400px" height="250px"></br>
-                    <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                    <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                    <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                        opposite Commissioner House, Bahawalpur</p></br>
-                    <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2
+                    <img data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000" class="" src="./Assets/main3pic1.webp" alt="" width="400px" height="250px"></br>
+                    <p style="color: rgb(250, 23, 23);" class="p1 mt-1">EMPORIUM MALL</p></br>
+                    <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                    <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">2nd Floor, Food Court Emporium Mall</p></br>
+                    <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 0311-1100947
                     </p></br></br></br>
 
                     <div> <button class="padding "><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
                 </div>
                 <div class="ml">
-                    <img class="" src="./Assets/main3pic2.webp" alt="" height="250px" width="400px"></br>
-                    <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                    <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                    <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                        opposite Commissioner House, Bahawalpur</p></br>
-                    <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2
+                    <img data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000" class="" src="./Assets/main3pic2.webp" alt="" height="250px" width="400px"></br>
+                    <p style="color: rgb(250, 23, 23);" class="p1 mt-1">GUJRANWALA</p></br>
+                    <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                    <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">Sixteenth Avenue Mall</p></br>
+                    <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 0300-6024000
                     </p></br></br></br>
                     <div> <button class="padding"><a href="">Get Directions</a> <i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
                 </div>
                 <div class="ml">
-                    <img class="" src="./Assets/main3pic3.webp" alt="" height="250px" width="400px"></br>
-                    <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                    <h3 class="f-family " style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                    <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                        opposite Commissioner House, Bahawalpur</p></br>
-                    <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2
+                    <img data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000" class="" src="./Assets/main3pic3.webp" alt="" height="250px" width="400px"></br>
+                    <p style="color: rgb(250, 23, 23);" class="p1 mt-1">SARGODHA</p></br>
+                    <h3 class="f-family " style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                    <p style="font-size: 14px;"> <img  src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">Opposite Sargodha Arts Council Babar Road</p></br>
+                    <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 048-3725500
                     </p></br></br></br>
                     <div><button class="padding"><a href="">Get Directions  </a> <i class="fa-solid fa-arrow-right border-solid2"></i></button>
                     </div>
@@ -179,34 +202,37 @@
         <div class="  d-flex align-center text-center justify-center  mt-2">
 
             <div class=" ">
-                <img class="" src="./Assets/main3pic4.webp" alt="" width="400px" height="250px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="" src="./Assets/main3pic4.webp" alt="" width="400px" height="250px"></br>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">JHELUM</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px"> Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum,</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 0307-7675555</p>
                 </br></br></br>
 
                 <div> <button class="padding "><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
             </div>
             <div class="ml">
-                <img class="" src="./Assets/main3pic5.webp" alt="" height="250px" width="400px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="" src="./Assets/main3pic5.webp" alt="" height="250px" width="400px"></br>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">FAISAL TOWN</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 042-111-100-678</p>
                 </br></br></br>
 
                 <div> <button class="padding"><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
             </div>
             <div class="ml">
-                <img class="" src="./Assets/main3pic6.webp" alt="" height="250px" width="400px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="" src="./Assets/main3pic6.webp" alt="" height="250px" width="400px"></br>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">DHA</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">93-Y Phase III, DHA,Lahore</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 042-111-100-678</p>
                 </br></br></br>
 
                 <div> <button class="padding "><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
@@ -223,35 +249,38 @@
         <div class="  d-flex align-center text-center justify-center mt-2 ">
 
             <div class="">
-                <img class="" src="./Assets/main3pic7.webp" alt="" width="400px" height="250px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="" src="./Assets/main3pic7.webp" alt="" width="400px" height="250px"></br>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHRIA TOWN                </p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">Arwa Heights Building 19 Nishtar Block, Sector E,</br> Bahria Town Lahore</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 042-111-100-678</p>
                 </br></br></br>
 
                 <div> <button class="padding "><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
             </div>
             <div class="ml">
-                <img class="" src="./Assets/main3pic8.webp" alt="" height="250px" width="400px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"  class="" src="./Assets/main3pic8.webp" alt="" height="250px" width="400px"></br>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">GUJAR KHAN</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">New Metro City Gujar Khan</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 0321-1114962</p>
                 </br></br></br>
 
                 <div> <button class="padding"><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
             </div>
             <div class="ml">
-                <img class="" src="https://static.tossdown.com/site/6b8657b7-91ec-4e06-a06c-5cad0d70606d.webp" alt=""
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" class="" src="https://static.tossdown.com/site/6b8657b7-91ec-4e06-a06c-5cad0d70606d.webp" alt=""
                     height="250px" width="400px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">LAHORE</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">Shop no.5, Arcade Block, Fortress Stadium, Lahore</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 042-366-23-100</p>
                 </br></br></br>
 
                 <div> <button class="padding "><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
@@ -265,25 +294,27 @@
         <div class="  d-flex align-center text-center justify-center mt-2 ">
 
             <div class=" ">
-                <img class="" src="https://static.tossdown.com/images/bbac9f4a-2970-4bc4-b8a1-541857d96e79.webp" alt=""
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"  class="" src="https://static.tossdown.com/images/bbac9f4a-2970-4bc4-b8a1-541857d96e79.webp" alt=""
                     width="400px" height="250px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;" > <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">GUJRAT</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">Service Mor, Gujrat</p></br>
+                <p style="font-size: 14px;" > <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 0311-1124600</p>
                 </br></br></br>
 
                 <div> <button class="padding "><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
             </div>
             <div class="ml">
-                <img class="" src="https://static.tossdown.com/images/114fd251-9864-44bc-9f51-0eb05781303c.webp" alt=""
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"  class="" src="https://static.tossdown.com/images/114fd251-9864-44bc-9f51-0eb05781303c.webp" alt=""
                     height="250px" width="400px"></br>
-                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">BAHAWALPUR</p></br>
-                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Resturent</span></h3></br></br>
-                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">D.C Chowk,
-                    opposite Commissioner House, Bahawalpur</p></br>
-                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 062-2740271-2</p>
+                <p style="color: rgb(250, 23, 23);" class="p1 mt-1">SAHIWAL</p></br>
+                <h3 class="f-family" style="font-size: 30px;">Salt'n pepper <span>Express</span></h3></br></br>
+                <p style="font-size: 14px;"> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">Opposite Main Gate Police Line, Sahiwal</p></br>
+                <p style="font-size: 14px;"> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 040-4515485</p>
                 </br></br></br>
 
                 <div> <button class="padding"><a href="">Get Directions</a><i class="fa-solid fa-arrow-right border-solid2"></i></button></div>
@@ -296,18 +327,24 @@
 
     <!-- main three row4 ended-->
     <!-- main four Started -->
-    <main class=" bg-darkgrey">
+    <main class=" bg-darkgrey height mt-3">
 
-        <div class="main2-children1 mt-3 ">
-            <h1 class="f-family" style="font-size: 52px;">Salt'n pepper</h1>
-            <h2 class="f-family1 f-size">Village Franchise</h2></br>
+        <div class="main2-children1  " data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <h1 class="f-family " style="font-size: 52px;">Salt'n pepper</h1>
+            <h2 class="f-family1 f-size ">Village Franchise</h2></br>
         </div></br></br>
-        <div class="d-flex justify-center   ">
-            <div class="main-child2img"> <img
+        <div class="d-flex justify-center  ">
+            <div class="main-child2img"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"> <img
                     src="https://images-beta.tossdown.com/site/0df39a08-2dca-4998-adda-4ca66b1132cb.webp" alt=""
                     height="300px" width="500px" class="main-child2img"> </div>
 
-            <div class="main-child2 ml">
+            <div class="main-child2 ml"  data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <p style="color: rgb(250, 23, 23);" class="p1">FAISALABAD</p></br>
                 <h3 class="f-family" style="font-size: 35px;">Salt'n pepper <span>Resturent</span></h3></br></br>
                 <p> <img src="./Assets/locationicon.jpg" alt="location.png" height="20px" width="20px">4-Kohinoor City,
@@ -315,34 +352,158 @@
                 <p> <img src="./Assets/phoneicon.gif" alt="phone .png" height="20px" width="20px">Ph: 041-8711404</p>
                 </br></br></br>
                 <button class="main4-button"><a href="" class="t-decuration bg-green">Get Directions <img src=""
-                            alt=""></a><i class="fa-solid fa-arrow-right border-solid2 "></i></button>
+                            alt=""></a><i class="fa-solid fa-arrow-right border-solid3 "></i></button>
             </div>
         </div>
     </main>
+    
     <!-- main four ended -->
+
+
+
     <!-- main five Started -->
 
 
-    <main class="">
-        <div class="text-center mt-2">
+    <main class="animate__animated animate__bounce animate__delay-5s" >
+        <div class="text-center mt-2" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2000">
             <h1 class="f-family f-size ">Salt'n pepper</h1>
-            <h2 class="f-family1  f-size ">Expr ess Franchises <span class="t-size">(Opening Soon)</span></h2></br>
+            <h2 class="f-family1  f-size ">Express Franchises <span class="t-size">(Opening Soon)</span></h2></br>
         </div>
-        <div>
-            <img src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
-                height="100px" width="100px">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="d-flex text-center justify-center mt-2">
+        <div class=" bg-white height0 radius">
+        <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                height="50px" width="50px">
+                </div>
+            <div class="mt-1 text-center ">
+                <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Al-Jalil Garden</p>
+                <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Sadhoke</p>
+                </br></br></br>
+            </div>
+                
+        </div>
+
+
+        <div class=" bg-white height0 radius ml">
+            <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                    height="50px" width="50px">
+                    </div>
+                <div class="mt-1 text-center ">
+                    <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                    <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                    <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Al-Jalil Garden</p>
+                    <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Sheikhupura</p>
+                    </br></br></br>
+                </div>
+                    
+            </div>
+
+
+
+
+            <div class=" bg-white height0 radius ml">
+                <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                        height="50px" width="50px">
+                        </div>
+                    <div class="mt-1 text-center ">
+                        <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                        <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                        <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Blue World City</p>
+                        <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Blue World City</p>
+                        </br></br></br>
+                    </div>
+                        
+                </div>
         </div>
     </main>
+
+    <main class="animate__animated animate__bounce animate__delay-5s">
+        <div class="d-flex text-center justify-center mt-2">
+            <div class=" bg-white height0 radius">
+            <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                    height="50px" width="50px">
+                    </div>
+                <div class="mt-1 text-center ">
+                    <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                    <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                    <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Blue World City</p>
+                    <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Gujranwala</p>
+                    </br></br></br>
+                </div>
+                    
+            </div>
+    
+    
+            <div class=" bg-white height0 radius ml">
+                <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                        height="50px" width="50px">
+                        </div>
+                    <div class="mt-1 text-center ">
+                        <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                        <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                        <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">City Housing</p>
+                        <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Sialkot</p>
+                        </br></br></br>
+                    </div>
+                        
+                </div>
+    
+    
+    
+    
+                <div class=" bg-white height0 radius ml">
+                    <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                            height="50px" width="50px">
+                            </div>
+                        <div class="mt-1 text-center ">
+                            <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                            <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                            <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Al-Jalil Garden</p>
+                            <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Sharqpur</p>
+                            </br></br></br>
+                        </div>
+                            
+                    </div>
+            </div>
+    </main>
+
+    <div class="d-flex text-center justify-center mt-2" class="animate__animated animate__bounce animate__delay-5s">
+        <div class=" bg-white height0 radius">
+        <div class="text-center "> <img class="mt-1" src="https://static.tossdown.com/images/d837768e-a445-459c-9eb9-f3026c3a821c.webp" alt=""
+                height="50px" width="50px">
+                </div>
+            <div class="mt-1 text-center ">
+                <p style="color: rgb(250, 23, 23); font-size: 10px;" class="p1">OPENNING SOON</p></br>
+                <h3 class=" f-family1" style="font-size: 25px; color: rgb(0, 0, 0);">Salt'n pepper <span class="f-family1" style=" color: rgb(0, 0, 0); font-size: 18px; font-weight: 200;">Express</span></h3>
+                <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Al-Jalil Garden</p>
+                <p class="f-family1 mt-0" style=" color: rgb(0, 0, 0); font-size: 19px;">Burewala</p>
+                </br></br></br>
+            </div>
+                
+        </div></div>
+
+    <!-- main five ended -->
+
+
+
+
+
     <!-- main six Started -->
-    <div class=" mt-3 cursor">
+    <div class=" mt-3 cursor" data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    
         <!-- <div class="justify-center"> -->
         <h1 class="f-family1 f-size text-center">
             Social feed
         </h1>
         <!-- </div> -->
-        <div class="d-flex  justify-between mt-1">
+        <div class="d-flex  justify-between mt-1" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <img src="https://static.tossdown.com/images/0e1296ae-9bcd-493a-a13f-81bd0a376fbb.webp" alt=""
                 height="300px" width="300px">
             <img src="https://static.tossdown.com/images/90ae7dd1-d505-40d1-a8ea-bce0ae9353f0.webp" alt=""
@@ -356,7 +517,8 @@
         </div>
     </div>
     <!-- main six ended? -->
-    <footer class="d-flex bg-darkgrey justify-around ">
+    <footer class="d-flex bg-darkgrey justify-around " data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <div class="footer1 mt-2">
             <img src="./Assets/logo.webp" alt="logo" class="d-flex" width="165px"></br>
             <p>
@@ -395,23 +557,28 @@
         </div>
         <div class="footer4 mt-2">
             <h1 class="f-family1">Follow Us</h1></br>
-<div>
- <a href="">  <img src="" alt="Facebook"></a>
- <a href="">   <img src="" alt=" Insta"></a>
- <a href="">  <img src="" alt="Twitter"></a>
+<div class="mt-1 ">
+ <a href="" class="t-decuration "><i class="fa-brands fa-facebook  border-solid5 "></i></a>
+ <a href="" class="t-decuration"><i class="fa-brands fa-instagram  border-solid5"></i></a>
+ <a href="" class="t-decuration"><i class="fa-brands fa-twitter  border-solid5"></i></a>
 </div></br>
-<div><a href=""> <img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp" alt=""></a></div></br>
+<div class="mt-1"><a href=""> <img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp" alt=""></a></div></br>
 <div><a href=""> <img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp" alt=""></a></div>
         </div>
 
     </footer>
-  <div class="height2   bg-darkgre"> 
+  <div class="height2  bg-darkgrey"> 
      <hr >
      <div class="d-flex justify-around mt-1">
         <p> @ Copyright 2022 Salt'n Pepper Restaurants</p>
         <p>Powered Bytossdown.com</p>
      </div>
     </div>
+<!-- Aos Animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

@@ -1,6 +1,39 @@
+/* nav{
+    display: flex;
+    gap: 30px;
+    
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .images{
+margin :10px;
+display: flex;
+height: 80px;
+}
+.pages{
+    margin-top: 50px;
+    display: flex;
+    float: right;
+    margin-right: 200px;
+  
+   
+}
+
+.pages a{
+    display: flex;
+    float: left;
+    margin-right: 100px;
+}
+button{
+    
+} */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
     background: #000;
@@ -16,9 +49,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    
+   
   }
   
-  .pages a {
+  .pages1 {
     text-decoration: none;
     color: #ffffff;
     margin-right: 60px;
@@ -27,29 +62,40 @@ nav {
   .pages-button1 {
     border-radius: 30px;
     margin-right: 20px;
-    padding:20px 20px;
-    /* border:1px solid #ffff; */
+  
+    border:1px solid #ffff;
+    width: 160px;
     cursor: pointer;
+    
+    padding: 17px 0px;
     background-color: #000000;
   }
   .pages-button2 {
-    border-radius: 30px;
+    /* border-radius: 30px;
     margin-right: 20px;
-    padding:20px 20px;
+    padding:20px  0px;
     /* background-color: #000000; */
-    cursor: pointer;
-    border: none;
+  /*  cursor: pointer;
+    
     border:1px solid #ffff;
+   width: 170px; */
+   border: none;
+   padding: 18px;
+   border-radius: 40px; 
+   width: 150px;
+   /* border: 1px solid #ffffff; */
+   /* background-color: #0f0f0f; */
   }
 
   
   .pages button a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #fff;
-    
+    align-items: center;
     text-align: center;
-    flex-direction: column-reverse;
-    width: 70px;
+    justify-content: center;
+    /* flex-direction: column-reverse; */
+    /* width: 70px; */
   }
   /* .icon{
     width: 40px;
@@ -60,7 +106,7 @@ nav {
   } */
   
   /* Responsive design */
-  @media (max-width: 768px) {
+  @media (max-width: 620px) {
     nav {
       flex-direction: column;
       align-items: center;

@@ -33,7 +33,7 @@ button{
 } */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px;
     background: #000;
@@ -49,9 +49,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    
+   
   }
   
-  .pages a {
+  .pages1 {
     text-decoration: none;
     color: #ffffff;
     margin-right: 60px;
@@ -60,30 +62,41 @@ nav {
   .pages-button1 {
     border-radius: 30px;
     margin-right: 20px;
-    padding:20px 0px;
+  
     border:1px solid #ffff;
+    width: 160px;
     cursor: pointer;
+    
+    padding: 17px 0px;
     background-color: #000000;
   }
   .pages-button2 {
-    border-radius: 30px;
+    /* border-radius: 30px;
     margin-right: 20px;
     padding:20px  0px;
     /* background-color: #000000; */
-    cursor: pointer;
-    border: none;
+  /*  cursor: pointer;
+    
     border:1px solid #ffff;
-   
+   width: 170px; */
+   border: none;
+   padding: 16px 0px;
+   border-radius: 40px; 
+   width: 150px;
+   /* border: 1px solid #ffffff; */
+   /* background-color: #0f0f0f; */
   }
+
 
   
   .pages button a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #fff;
-    
+    align-items: center;
     text-align: center;
-    flex-direction: column-reverse;
-    width: 70px;
+    justify-content: center;
+    /* flex-direction: column-reverse; */
+    /* width: 70px; */
   }
   /* .icon{
     width: 40px;
@@ -99,10 +112,13 @@ nav {
       flex-direction: column;
       align-items: center;
     }
+    .main-image{
+      display:block;
+    }
     .images {
       margin-bottom: 20px;
     }
-    .pages {
+    .pages {display: none;
       flex-direction: column;
       align-items: center;
     }
@@ -221,7 +237,7 @@ nav {
   .padding{
     padding: 20px;
     border-radius: 40px; 
-    width: 150px;
+    width: 170px;
     border: 1px solid #ffffff;
     background-color: #0f0f0f;
     
@@ -264,9 +280,9 @@ gap: 30px;
   border-radius: 30px;
   margin-right: 20px;
   padding:20px 20px;
-  border:1px solid #ffff;
+  border: 1px solid #ffff;
   cursor: pointer;
-  width: 200px;
+  width: 170px;
   background-color: #161515;
   
  }
@@ -287,4 +303,9 @@ hr{
   width: 95%;
   margin-left: 30px;
   
+}
+
+
+.main-images{
+  height: 620px;width: 100%;
 }
