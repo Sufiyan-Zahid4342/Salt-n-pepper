@@ -27,8 +27,8 @@
 }
 .c-center {
   display: flex;
-  justify-content: flex-start; /* Default alignment */
-  text-align: left; /* Default text alignment */
+  justify-content: flex-start; 
+  text-align: left; Default text alignment
 } */
 
 /* .images{
@@ -340,4 +340,140 @@ hr{
 
 .main-images{
   height: 620px;width: 100%;
+
+}
+
+
+@media(max-width:720px){
+  .main-responsive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 1350px;
+
+  }
+
+}
+@media (max-width: 720px) {
+  .main4-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Adjust height for better responsiveness */
+    margin-top: 7vh; /* Use relative units for better scaling */
+  }
+}
+/* 
+@media(max-width:720px){
+  .main4-responsive{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+    height: 1350px;
+    margin-top: 400px;
+
+  }
+
+} */
+
+@media(max-width:720px){
+  .main2-responsive{
+    display: block;
+    display: inline;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 30px;
+    height: 1350px; */
+    flex-direction: column; /* Switch to column layout on smaller screens */
+    /* align-items: center; */
+  }
+  .div2 > *{/* width: 100%; Ensure children elements take full width */
+    margin-bottom: 20px;
+    align-items: center;
+    /* margin-top: -10px; */
+    /* justify-content: center; */
+  }
+  /* .null{
+    display: 
+  } */
+
+}
+@media(max-width:720px){
+.main4{
+  display: flex;
+  flex-direction: column;
+}
+.c-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+/* Hamburger icon styling */
+.hamburger-icon {
+  cursor: pointer;
+  font-size: 24px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* Menu Styling */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Hide the menu off-screen initially */
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  padding-top: 60px;
+  transition: left 0.3s ease;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 20px 0;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+  background-color: #575757;
+}
+
+/* Show menu when checkbox is checked */
+#menu-toggle:checked ~ .menu {
+  left: 0; /* Slide the menu into view */
+}
+
+/* Optional styling for smaller screens */
+@media (max-width: 720px) {
+  .menu {
+    width: 200px;
+  }
+
+  .hamburger-icon {
+    font-size: 20px;
+    top: 15px;
+    left: 15px;
+  }
 }
