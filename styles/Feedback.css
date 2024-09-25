@@ -2,19 +2,61 @@ body, html {
     height: 100%;
     margin: 0;
 }
-.bg-image{
-/* background-image: url(https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp) no-repeat center center;
- background-repeat: no-repeat; */
- background: url('https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp') no-repeat center center;
- background-size: cover;
- max-width: 1700px;
- height: 900px;
- display: flex;
- align-items: center;
- justify-content: center;
-
-
+.bg-image {
+    background: url('https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp') no-repeat center center;
+    background-size: cover;
+    max-width: 100%; /* Set max-width to 100% to scale */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
+
+/* Media query for devices with width less than 1200px (large desktops) */
+@media (max-width: 1200px) {
+    .bg-image {
+        height: 80vh; /* Reduce height for large desktops */
+    }
+}
+
+/* Media query for devices with width less than 992px (tablets and small desktops) */
+@media (max-width: 992px) {
+    .bg-image {
+        height: 70vh; /* Adjust height for smaller desktops and tablets */
+    }
+    .main-text{
+        font-size: .5rem;
+    }
+}
+
+/* Media query for devices with width less than 768px (tablets) */
+@media (max-width: 768px) {
+    .bg-image {
+        height: 60vh; /* Adjust height for tablets */
+        background-position: center top; /* Adjust background position for tablets */
+    }
+    .main2-responsive{
+        border-left: none;
+    }
+}
+
+/* Media query for devices with width less than 576px (mobile phones) */
+@media (max-width: 576px) {
+    .bg-image {
+        height: 50vh; /* Adjust height for mobile phones */
+        background-size: cover; /* Ensure background covers the screen */
+    }
+}
+
+/* Media query for devices with width less than 375px (small mobile phones) */
+@media (max-width: 375px) {
+    .bg-image {
+        height: 40vh; /* Further adjust height for small mobile phones */
+        background-position: center; /* Reposition the background */
+    }
+}
+
 .border-solid4{
     border-right: 3px dotted gray;
     width: 800px;
@@ -23,3 +65,17 @@ body, html {
      
     text-align: center;
 }
+@media(max-width:720px){
+    .border-solid4{
+        border-right: none;padding: none;
+    }
+    p{
+        font-size: small;
+    }
+   /* .mt-1{
+    width: 200px; */
+    /* justify-content: center; */
+    /* text-align: center;
+    align-items: center; */
+   }
+    
